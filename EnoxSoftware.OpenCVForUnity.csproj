@@ -330,14 +330,8 @@
      <Compile Include="Assets\OpenCVForUnity\org\opencv_contrib\xphoto\TonemapDurand.cs" />
      <Compile Include="Assets\OpenCVForUnity\org\opencv_contrib\xphoto\WhiteBalancer.cs" />
      <Compile Include="Assets\OpenCVForUnity\org\opencv_contrib\xphoto\Xphoto.cs" />
-     <None Include="Assets\OpenCVForUnity\StreamingAssets\haarcascade_frontalface_alt.xml" />
      <None Include="Assets\OpenCVForUnity\OpenCVLicense.txt" />
      <None Include="Assets\OpenCVForUnity\Notices.txt" />
-     <None Include="Assets\OpenCVForUnity\StreamingAssets\text\trained_classifier_erGrouping.xml" />
-     <None Include="Assets\OpenCVForUnity\StreamingAssets\lbpcascade_frontalface.xml" />
-     <None Include="Assets\OpenCVForUnity\StreamingAssets\text\trained_classifierNM1.xml" />
-     <None Include="Assets\OpenCVForUnity\StreamingAssets\text\trained_classifierNM2.xml" />
-     <None Include="Assets\OpenCVForUnity\StreamingAssets\text\OCRHMM_transitions_table.xml" />
      <None Include="Assets\OpenCVForUnity\EnoxSoftware.OpenCVForUnity.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Users/joo1798/Documents/UnityProject/2019.4.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
