@@ -7,13 +7,16 @@ public class ReportSelect : MonoBehaviour
 {
     public GameObject Game1, Game2;
     int Q1_flag = 0;
-    // int Q2_Flag = 0;
+    int Q2_flag = 0;
 
     void Awake()
     {
         // 퀴즈 플레이 이력 불러오기
         Q1_flag = DataManager.instance.CheckQuiz1_Flag();
-        Debug.Log(Q1_flag);
+        Debug.Log("Q1: " + Q1_flag);
+
+        Q2_flag = DataManager.instance.CheckQuiz2_Flag();
+        Debug.Log("Q2: " + Q2_flag);
     }
 
     // Start is called before the first frame update
@@ -25,12 +28,12 @@ public class ReportSelect : MonoBehaviour
         {
             Game1.SetActive(true);
         }
-        /*
-        if (Quiz2_Flag == 1)
+
+        if (Q2_flag == 1)
         {
             Game2.SetActive(true);
         }
-        */
+
     }
 
     // Update is called once per frame

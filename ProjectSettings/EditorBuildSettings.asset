@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Report_Game1.unity
     guid: a5da9ca13f5e188408da1bb81ddd982c
+  - enabled: 1
+    path: Assets/Scenes/Report_Game2.unity
+    guid: bf5774edca8f0ef41b14a1b27063cd3e
+  - enabled: 1
+    path: Assets/Scenes/Quiz_Game2.unity
+    guid: 13ca70fc3a2a48a459265083845da57a
   m_configObjects: {}

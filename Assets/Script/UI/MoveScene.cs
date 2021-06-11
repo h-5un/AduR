@@ -42,7 +42,7 @@ public class MoveScene : MonoBehaviour
 
     public void Move2Report2()
     {
-        SceneManager.LoadScene("Report2");
+        SceneManager.LoadScene("Report_Game2");
     }
 
     public void Move2Quiz1()
@@ -50,6 +50,11 @@ public class MoveScene : MonoBehaviour
         SceneManager.LoadScene("Quiz_Game1");
     }
 
+    public void Move2Quiz2()
+    {
+        SceneManager.LoadScene("Quiz_Game2");
+    }
+    
     // Start is called before the first frame update
     void Start()
     {
